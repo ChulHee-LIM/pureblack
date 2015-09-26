@@ -1,0 +1,62 @@
+<div class="container-fluid">
+  <div class="row" id="fullscreen-wrap">
+    <div class="embed-responsive embed-responsive-16by9">
+      <div class="row home-introduction-sentence">
+        <div class="col-md-8 col-md-offset-2">
+          <h2><span>Find Your Specialty</span></h2>
+          <div><span>190개의 스페셜티 카페를 찾아보세요.</span></div>
+        </div>
+      </div>
+      <iframe class="embed-responsive-item" src="//www.youtube.com/embed/zro0mJ9V7ZQ?autoplay=1&controls=0&showinfo=0&autohide=1&loop=1&playlist=lG5aSZBAuPs" autofullscreen></iframe>
+      <div class="row home-search-wrap">
+        <form action="/pureblack/cafesearch" method="POST">
+          <div class="input-group input-group-lg col-md-6 col-md-offset-3" id="home-input-group">
+            <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+            <input type="text" class="form-control" value="오늘은 어디서 커피를 드시겠어요?" style="padding:5px; text-align:center" name="searchword">
+            <span class="input-group-btn">
+              <a class="btn btn-danger" type="submit" href="/cafe/cafesearch">검색</a>
+            </span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="top-sentence">
+      <span class="topsent1">스페셜한 하루를 위해!</span><br>
+      <span class="topsent2">특별해지는 경험을 해보세요.</span>
+    </div>
+  </div>
+  <div class="row content-row">
+    <div class="col-md-8">
+      <div class="content-img1">
+        <span>가로수 길</span>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="content-img1">
+        <span>대왕커피</span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row content-row">
+    <div class="col-md-4">
+      <div class="content-img1">
+        <span>홍대</span>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="content-img1">
+        <span>홍대</span>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="content-img1">
+        <span>홍대</span>
+      </div>
+    </div>
+  </div>
+</div>

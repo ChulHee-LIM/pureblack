@@ -1,0 +1,35 @@
+.subfooter {
+	background-color: #fafafa;
+	border-top: 1px solid #f3f3f3;
+	border-bottom: 1px solid #f3f3f3;
+	padding: 40px 0;
+}
+
+.section {
+	background-color: #222222;
+	color:white;
+	padding: 80px 0;
+}
+
+.default-bg blockquote footer,
+.translucent-bg blockquote footer {
+	color: #cccccc;
+}
+
+.subfooter p {
+	margin-bottom: 0;
+}
+
+/* ==============================
+   Portfolio
+   ============================== */
+
+#portfolio + .small-section{
+	margin-top: -110px;
+}
+
+
+#news + .small-section{
+    margin-top: -140px;
+}
+
